@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <!-- This will represent the starting fragment hosted by MainActivity -->
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.kidslearning.MainFragment"
+        android:label="Kids Learning Home">
+        <action
+            android:id="@+id/action_mainFragment_to_arabicLettersFragment"
+            app:destination="@id/arabicLettersFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_frenchLettersFragment"
+            app:destination="@id/frenchLettersFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/arabicLettersFragment"
+        android:name="com.example.kidslearning.ArabicLettersFragment"
+        android:label="Arabic Alphabet">
+        <action
+            android:id="@+id/action_arabicLettersFragment_to_letterTraceActivity"
+            app:destination="@id/letterTraceActivity" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/frenchLettersFragment"
+        android:name="com.example.kidslearning.FrenchLettersFragment"
+        android:label="French Alphabet">
+        <action
+            android:id="@+id/action_frenchLettersFragment_to_letterTraceActivity"
+            app:destination="@id/letterTraceActivity" />
+    </fragment>
+
+
+
+    <activity
+        android:id="@+id/letterTraceActivity"
+        android:name="com.example.kidslearning.LetterTraceActivity"
+        android:label="Letter Tracing" >
+        <argument
+            android:name="letterId"
+            app:argType="string" />
+    </activity>
+
+</navigation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#FF6B9D</color>
+    <color name="primary_dark">#E91E63</color>
+    <color name="accent">#FFC107</color>
+    <color name="background">#FFF8E1</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="text_primary">#2E2E2E</color>
+    <color name="text_secondary">#757575</color>
+    <color name="button_positive">#4CAF50</color>
+    <color name="button_neutral">#FF9800</color>
+    <color name="tracing_path">#E0E0E0</color>
+    <color name="user_path">#2196F3</color>
+</resources>

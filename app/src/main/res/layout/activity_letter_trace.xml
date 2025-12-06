@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#90CAF9"
+    tools:context=".LetterTraceActivity">
+
+    <TextView
+        android:id="@+id/letterDisplayTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="L"
+        android:textSize="@dimen/letter_display_size"
+        android:textColor="#1A237E"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/replaySoundButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"/>
+
+    <com.example.kidslearning.ui.tracing.TracingCanvasView
+        android:id="@+id/tracingCanvasView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#E3F2FD"
+        app:layout_constraintTop_toBottomOf="@+id/letterDisplayTextView"
+        app:layout_constraintBottom_toTopOf="@+id/replaySoundButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="@dimen/margin_medium"
+        android:layout_marginEnd="@dimen/margin_medium"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:layout_marginBottom="@dimen/margin_medium"/>
+
+    <Button
+        android:id="@+id/replaySoundButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Replay Sound"
+        android:textSize="@dimen/text_size_large"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#FFAB91"
+        app:cornerRadius="@dimen/corner_radius_medium"
+        android:layout_marginBottom="@dimen/margin_medium"
+        android:layout_marginStart="@dimen/margin_large"
+        android:layout_marginEnd="@dimen/margin_large"
+        app:layout_constraintBottom_toTopOf="@+id/clearDrawingButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/clearDrawingButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Clear Drawing"
+        android:textSize="@dimen/text_size_large"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#FFCC80"
+        app:cornerRadius="@dimen/corner_radius_medium"
+        android:layout_marginBottom="@dimen/margin_medium"
+        android:layout_marginStart="@dimen/margin_large"
+        android:layout_marginEnd="@dimen/margin_large"
+        app:layout_constraintBottom_toTopOf="@+id/backButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textSize="@dimen/text_size_large"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#FFE082"
+        app:cornerRadius="@dimen/corner_radius_medium"
+        android:layout_marginBottom="@dimen/margin_large"
+        android:layout_marginStart="@dimen/margin_large"
+        android:layout_marginEnd="@dimen/margin_large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

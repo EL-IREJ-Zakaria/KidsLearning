@@ -1,0 +1,250 @@
+[
+  {
+    "id": "ar_alif",
+    "character": "أ",
+    "pronunciation": "Alif",
+    "soundFileName": "ar_alif.mp3",
+    "language": "arabic",
+    "tracingPathData": "M100,50 L100,250"
+  },
+  {
+    "id": "ar_baa",
+    "character": "ب",
+    "pronunciation": "Baa",
+    "soundFileName": "ar_baa.mp3",
+    "language": "arabic",
+    "tracingPathData": "M50,200 Q150,250 250,200"
+  },
+  {
+    "id": "ar_taa",
+    "character": "ت",
+    "pronunciation": "Taa",
+    "soundFileName": "ar_taa.mp3",
+    "language": "arabic",
+    "tracingPathData": "M50,200 Q150,250 250,200"
+  },
+  {
+    "id": "ar_thaa",
+    "character": "ث",
+    "pronunciation": "Thaa",
+    "soundFileName": "ar_thaa.mp3",
+    "language": "arabic",
+    "tracingPathData": "M50,200 Q150,250 250,200"
+  },
+  {
+    "id": "ar_jeem",
+    "character": "ج",
+    "pronunciation": "Jeem",
+    "soundFileName": "ar_jeem.mp3",
+    "language": "arabic",
+    "tracingPathData": "M200,150 Q150,50 100,50 Q50,150 100,250"
+  },
+  {
+    "id": "fr_a",
+    "character": "A",
+    "pronunciation": "Ah",
+    "soundFileName": "fr_a.mp3",
+    "language": "french",
+    "tracingPathData": "M100,250 L150,50 L200,250 M125,150 L175,150"
+  },
+  {
+    "id": "fr_b",
+    "character": "B",
+    "pronunciation": "Beh",
+    "soundFileName": "fr_b.mp3",
+    "language": "french",
+    "tracingPathData": "M100,50 L100,250 Q150,50 200,150 Q150,250 100,250"
+  },
+  {
+    "id": "fr_c",
+    "character": "C",
+    "pronunciation": "Seh",
+    "soundFileName": "fr_c.mp3",
+    "language": "french",
+    "tracingPathData": "M200,150 Q150,50 100,50 Q50,150 100,250 Q150,250 200,150"
+  },
+  {
+    "id": "fr_d",
+    "character": "D",
+    "pronunciation": "Deh",
+    "soundFileName": "fr_d.mp3",
+    "language": "french",
+    "tracingPathData": "M100,50 L100,250 Q200,150 100,50"
+  },
+  {
+    "id": "fr_e",
+    "character": "E",
+    "pronunciation": "Eh",
+    "soundFileName": "fr_e.mp3",
+    "language": "french",
+    "tracingPathData": "M100,50 L100,250 M100,50 L200,50 M100,150 L175,150 M100,250 L200,250"
+  },
+  {
+    "id": "fr_f",
+    "character": "F",
+    "pronunciation": "Ef",
+    "soundFileName": "fr_f.mp3",
+    "language": "french",
+    "tracingPathData": "M100,50 L100,250 M100,50 L200,50 M100,150 L175,150"
+  },
+  {
+    "id": "fr_g",
+    "character": "G",
+    "pronunciation": "Zheh",
+    "soundFileName": "fr_g.mp3",
+    "language": "french",
+    "tracingPathData": "M200,100 Q150,50 100,50 Q50,100 50,200 Q50,250 100,250 Q150,250 200,200 L200,150 L150,150"
+  },
+  {
+    "id": "fr_h",
+    "character": "H",
+    "pronunciation": "Ash",
+    "soundFileName": "fr_h.mp3",
+    "language": "french",
+    "tracingPathData": "M100,50 L100,250 M200,50 L200,250 M100,150 L200,150"
+  },
+  {
+    "id": "fr_i",
+    "character": "I",
+    "pronunciation": "Ee",
+    "soundFileName": "fr_i.mp3",
+    "language": "french",
+    "tracingPathData": "M100,50 L200,50 M150,50 L150,250 M100,250 L200,250"
+  },
+  {
+    "id": "fr_j",
+    "character": "J",
+    "pronunciation": "Zhee",
+    "soundFileName": "fr_j.mp3",
+    "language": "french",
+    "tracingPathData": "M100,50 L200,50 M150,50 L150,200 Q150,250 100,250 Q50,200 50,150"
+  },
+  {
+    "id": "fr_k",
+    "character": "K",
+    "pronunciation": "Kah",
+    "soundFileName": "fr_k.mp3",
+    "language": "french",
+    "tracingPathData": "M100,50 L100,250 M200,50 L100,150 L200,250"
+  },
+  {
+    "id": "fr_l",
+    "character": "L",
+    "pronunciation": "El",
+    "soundFileName": "fr_l.mp3",
+    "language": "french",
+    "tracingPathData": "M100,50 L100,250 L200,250"
+  },
+  {
+    "id": "fr_m",
+    "character": "M",
+    "pronunciation": "Em",
+    "soundFileName": "fr_m.mp3",
+    "language": "french",
+    "tracingPathData": "M100,250 L100,50 L150,150 L200,50 L200,250"
+  },
+  {
+    "id": "fr_n",
+    "character": "N",
+    "pronunciation": "En",
+    "soundFileName": "fr_n.mp3",
+    "language": "french",
+    "tracingPathData": "M100,250 L100,50 L200,250 L200,50"
+  },
+  {
+    "id": "fr_o",
+    "character": "O",
+    "pronunciation": "Oh",
+    "soundFileName": "fr_o.mp3",
+    "language": "french",
+    "tracingPathData": "M150,50 Q200,50 200,150 Q200,250 150,250 Q100,250 100,150 Q100,50 150,50"
+  },
+  {
+    "id": "fr_p",
+    "character": "P",
+    "pronunciation": "Peh",
+    "soundFileName": "fr_p.mp3",
+    "language": "french",
+    "tracingPathData": "M100,250 L100,50 Q150,50 200,100 Q200,150 150,150 L100,150"
+  },
+  {
+    "id": "fr_q",
+    "character": "Q",
+    "pronunciation": "Kuh",
+    "soundFileName": "fr_q.mp3",
+    "language": "french",
+    "tracingPathData": "M150,50 Q200,50 200,150 Q200,250 150,250 Q100,250 100,150 Q100,50 150,50 M175,200 L200,250"
+  },
+  {
+    "id": "fr_r",
+    "character": "R",
+    "pronunciation": "Er",
+    "soundFileName": "fr_r.mp3",
+    "language": "french",
+    "tracingPathData": "M100,250 L100,50 Q150,50 200,100 Q200,150 150,150 L100,150 L200,250"
+  },
+  {
+    "id": "fr_s",
+    "character": "S",
+    "pronunciation": "Es",
+    "soundFileName": "fr_s.mp3",
+    "language": "french",
+    "tracingPathData": "M200,100 Q150,50 100,50 Q50,100 100,150 Q150,150 200,200 Q150,250 100,250 Q50,200 100,200"
+  },
+  {
+    "id": "fr_t",
+    "character": "T",
+    "pronunciation": "Teh",
+    "soundFileName": "fr_t.mp3",
+    "language": "french",
+    "tracingPathData": "M100,50 L200,50 M150,50 L150,250"
+  },
+  {
+    "id": "fr_u",
+    "character": "U",
+    "pronunciation": "Uh",
+    "soundFileName": "fr_u.mp3",
+    "language": "french",
+    "tracingPathData": "M100,50 L100,200 Q100,250 150,250 Q200,250 200,200 L200,50"
+  },
+  {
+    "id": "fr_v",
+    "character": "V",
+    "pronunciation": "Veh",
+    "soundFileName": "fr_v.mp3",
+    "language": "french",
+    "tracingPathData": "M100,50 L150,250 L200,50"
+  },
+  {
+    "id": "fr_w",
+    "character": "W",
+    "pronunciation": "Double-veh",
+    "soundFileName": "fr_w.mp3",
+    "language": "french",
+    "tracingPathData": "M100,50 L125,250 L150,150 L175,250 L200,50"
+  },
+  {
+    "id": "fr_x",
+    "character": "X",
+    "pronunciation": "Eeks",
+    "soundFileName": "fr_x.mp3",
+    "language": "french",
+    "tracingPathData": "M100,50 L200,250 M200,50 L100,250"
+  },
+  {
+    "id": "fr_y",
+    "character": "Y",
+    "pronunciation": "Ee-grek",
+    "soundFileName": "fr_y.mp3",
+    "language": "french",
+    "tracingPathData": "M100,50 L150,150 L200,50 M150,150 L150,250"
+  },
+  {
+    "id": "fr_z",
+    "character": "Z",
+    "pronunciation": "Zed",
+    "soundFileName": "fr_z.mp3",
+    "language": "french",
+    "tracingPathData": "M100,50 L200,50 L100,250 L200,250"
+  }
+]

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0F7FA"
+    tools:context=".MainFragment">
+
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kids Learning"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:textColor="#3F51B5"
+        android:layout_marginTop="64dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/arabicAlphabetButton"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="64dp"
+        android:text="Arabic Alphabet"
+        android:textSize="24sp"
+        android:textAllCaps="false"
+        android:backgroundTint="#FFAB91"
+        android:textColor="@android:color/white"
+        app:cornerRadius="24dp"
+        app:icon="@drawable/ic_arabic_letters"
+        app:iconGravity="textStart"
+        app:iconSize="48dp"
+        app:iconTint="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appTitle" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/frenchAlphabetButton"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="32dp"
+        android:text="French Alphabet"
+        android:textSize="24sp"
+        android:textAllCaps="false"
+        android:backgroundTint="#90CAF9"
+        android:textColor="@android:color/white"
+        app:cornerRadius="24dp"
+        app:icon="@drawable/ic_french_letters"
+        app:iconGravity="textStart"
+        app:iconSize="48dp"
+        app:iconTint="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/arabicAlphabetButton" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

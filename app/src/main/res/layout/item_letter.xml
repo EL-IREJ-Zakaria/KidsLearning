@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.button.MaterialButton xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/letterButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="80dp"
+    android:layout_margin="@dimen/margin_small"
+    android:paddingTop="@dimen/margin_medium"
+    android:paddingBottom="@dimen/margin_medium"
+    android:paddingStart="@dimen/margin_medium"
+    android:paddingEnd="@dimen/margin_medium"
+    android:backgroundTint="#FFCC80"  <!-- Default color, will be updated dynamically -->
+    android:textColor="@android:color/white"
+    android:textSize="@dimen/letter_text_size"
+    android:textStyle="bold"
+    android:gravity="center"
+    app:cornerRadius="@dimen/corner_radius_medium"
+    app:elevation="@dimen/elevation"
+    tools:text="A" />
