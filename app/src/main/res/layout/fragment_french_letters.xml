@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFE082" <!-- Light yellow for French -->
+    android:background="#FFE082"
     tools:context=".FrenchLettersFragment">
 
     <TextView
@@ -14,7 +14,7 @@
         android:text="French Alphabet"
         android:textSize="@dimen/text_size_large"
         android:textStyle="bold"
-        android:textColor="#BF360C" <!-- Dark orange for contrast -->
+        android:textColor="#BF360C"
         android:layout_marginTop="@dimen/margin_large"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

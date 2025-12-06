@@ -32,8 +32,8 @@
         android:textAllCaps="false"
         android:backgroundTint="#FFAB91"
         android:textColor="@android:color/white"
-        app:cornerRadius="24dp"
-        app:icon="@drawable/ic_arabic_letters"
+        app:cornerRadius="@dimen/corner_radius_medium"
+        app:icon="@drawable/ic_french_letters"
         app:iconGravity="textStart"
         app:iconSize="48dp"
         app:iconTint="@android:color/white"
@@ -53,7 +53,7 @@
         android:textAllCaps="false"
         android:backgroundTint="#90CAF9"
         android:textColor="@android:color/white"
-        app:cornerRadius="24dp"
+        app:cornerRadius="@dimen/corner_radius_medium"
         app:icon="@drawable/ic_french_letters"
         app:iconGravity="textStart"
         app:iconSize="48dp"
@@ -62,6 +62,25 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/arabicAlphabetButton" />
 
-
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/englishAlphabetButton"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="32dp"
+        android:text="English Alphabet"
+        android:textSize="24sp"
+        android:textAllCaps="false"
+        android:backgroundTint="#C8E6C9"
+        android:textColor="@android:color/white"
+        app:cornerRadius="@dimen/corner_radius_medium"
+        app:icon="@drawable/ic_french_letters"
+        app:iconGravity="textStart"
+        app:iconSize="48dp"
+        app:iconTint="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frenchAlphabetButton" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

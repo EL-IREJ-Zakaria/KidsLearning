@@ -11,7 +11,7 @@
     android:paddingBottom="@dimen/margin_medium"
     android:paddingStart="@dimen/margin_medium"
     android:paddingEnd="@dimen/margin_medium"
-    android:backgroundTint="#FFCC80"  <!-- Default color, will be updated dynamically -->
+    android:backgroundTint="#FFCC80"
     android:textColor="@android:color/white"
     android:textSize="@dimen/letter_text_size"
     android:textStyle="bold"

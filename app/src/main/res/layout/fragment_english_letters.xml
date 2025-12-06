@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#90CAF9" <!-- Light blue for English -->
+    android:background="#90CAF9"
     tools:context=".EnglishLettersFragment">
 
     <TextView
@@ -14,7 +14,7 @@
         android:text="English Alphabet"
         android:textSize="@dimen/text_size_large"
         android:textStyle="bold"
-        android:textColor="#1A237E" <!-- Dark blue for contrast -->
+        android:textColor="#1A237E"
         android:layout_marginTop="@dimen/margin_large"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
